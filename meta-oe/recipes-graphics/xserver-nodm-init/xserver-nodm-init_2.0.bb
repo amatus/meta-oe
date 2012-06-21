@@ -32,5 +32,5 @@ do_install() {
 
 FILES_${PN}-systemd += "${sysconfdir}/default/xserver-nodm"
 
-RDEPENDS_${PN} = "xserver-common (>= 1.30) xinit"
+RDEPENDS_${PN} = "initscripts xserver-common (>= 1.30) xinit"
 RDEPENDS_${PN}-systemd += "xserver-common (>= 1.30) xinit"
